@@ -8,11 +8,11 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li, footer ul li, .dropdown {
     display: inline;
     margin-right: 20px;
 }
-dropdown, dropbtn {
+.dropdown, .dropbtn {
     font-size: 1.5em;
     border: none;
     outline: none;
@@ -20,11 +20,11 @@ dropdown, dropbtn {
     padding: 14 px, 16 px;
     background-color: inherit;
 }
-a {
+a, .dropbtn {
     text-decoration: none;
     color: #999;
 }
-a:hover, dropdown:hover dropbtn {
+a:hover, .dropdown:hover .dropbtn {
     text-decoration: underline;
 }
 h1 {
